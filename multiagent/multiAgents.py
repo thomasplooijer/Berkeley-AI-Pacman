@@ -76,7 +76,7 @@ class ReflexAgent(Agent):
         newGhostStates = successorGameState.getGhostStates()
         newScaredTimes = [ghostState.scaredTimer for ghostState in newGhostStates]  #number of moves that ghosts will remain scared
 
-        "*** YOUR CODE HERE ***"
+        "*** YOUR CODE HERE yo ***"
 
         #getPosition() gets the position of self. (ghost)
         ghostPos = [ghost.getPosition() for ghost in newGhostStates]
